@@ -1,10 +1,10 @@
 <?php
 
-namespace Diezg\Collapsable;
+namespace Diezg\Collapsible;
 
 use Laravel\Nova\Fields\MorphMany;
 
-class MorphManyCollapsable extends MorphMany
+class MorphManyCollapsible extends MorphMany
 {
     /**
      * The field's component.

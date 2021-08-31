@@ -1,6 +1,6 @@
 <?php
 
-namespace Diezg\Collapsable;
+namespace Diezg\Collapsible;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Diezg\Collapsable;
+namespace Diezg\Collapsible;
 
 use Laravel\Nova\Fields\HasMany;
 
-class HasManyCollapsable extends HasMany
+class HasManyCollapsible extends HasMany
 {
     /**
      * The field's component.
