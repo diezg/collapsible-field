@@ -16,8 +16,14 @@ class FieldServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('collapsible', __DIR__.'/../dist/js/field.js');
-            Nova::style('collapsible', __DIR__.'/../dist/css/field.css');
+            Nova::script('has-many-collapsible', __DIR__ . '/../dist/js/field.js');
+            Nova::style('has-many-collapsible', __DIR__ . '/../dist/css/field.css');
+
+            Nova::script('has-many-through-collapsible', __DIR__ . '/../dist/js/field.js');
+            Nova::style('has-many-through-collapsible', __DIR__ . '/../dist/css/field.css');
+
+            Nova::script('morph-to-many-collapsible', __DIR__ . '/../dist/js/field.js');
+            Nova::style('morph-to-many-collapsible', __DIR__ . '/../dist/css/field.css');
         });
     }
 

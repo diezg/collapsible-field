@@ -11,7 +11,7 @@ class HasManyCollapsible extends HasMany
      *
      * @var string
      */
-    public $component = 'collapsible';
+    public $component = 'has-many-collapsible';
 
     public function __construct($name, $attribute = null, $resource = null)
     {

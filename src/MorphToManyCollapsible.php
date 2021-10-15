@@ -2,16 +2,16 @@
 
 namespace Diezg\Collapsible;
 
-use Laravel\Nova\Fields\MorphMany;
+use Laravel\Nova\Fields\MorphToMany;
 
-class MorphManyCollapsible extends MorphMany
+class MorphToManyCollapsible extends MorphToMany
 {
     /**
      * The field's component.
      *
      * @var string
      */
-    public $component = 'has-many-collapsible';
+    public $component = 'morph-to-many-collapsible';
 
     public function __construct($name, $attribute = null, $resource = null)
     {

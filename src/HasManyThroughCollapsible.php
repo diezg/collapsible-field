@@ -2,16 +2,16 @@
 
 namespace Diezg\Collapsible;
 
-use Laravel\Nova\Fields\MorphMany;
+use Laravel\Nova\Fields\HasManyThrough;
 
-class MorphManyCollapsible extends MorphMany
+class HasManyThroughCollapsible extends HasManyThrough
 {
     /**
      * The field's component.
      *
      * @var string
      */
-    public $component = 'has-many-collapsible';
+    public $component = 'has-many-through-collapsible';
 
     public function __construct($name, $attribute = null, $resource = null)
     {
