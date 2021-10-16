@@ -16,7 +16,7 @@ composer require diezg/collapsible
 ```
 
 ## Example Usage
-Fields supported: HasMany, HasManyThrough, MorphMany, MorphToMany.
+Fields supported: HasMany*Collapsible*, HasManyThrough*Collapsible*, MorphMany*Collapsible*, MorphToMany*Collapsible*.
 ```php
 use Diezg\Collapsible\HasManyCollapsible;
 
